@@ -1,0 +1,24 @@
+{
+  "version": "0.1",
+  "authors": [
+    "Jasper Boeijenga <jboeijenga@gmail.com>"
+  ],
+  "name": "Laravel",
+  "description": "This bower file is used to keep track of 3th party dependencies",
+  "homepage": "http://www.laravel.com",
+  "private": true,
+  "license": "none",
+  "dependencies": {
+    "requirejs": "~2.1.14",
+    "sass-bootstrap": "~3.0.0",
+    "modernizr": "~2.8.3",
+    "knockoutjs": "~3.1.0",
+    "jquery": "~1.11.0",
+    "respond": "~1.4.2"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
