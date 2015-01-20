@@ -3,6 +3,7 @@
 /node_modules
 /app/assets/bower_components
 /.sass-cache
+summary.json
 composer.phar
 composer.lock
 .env.*.php
