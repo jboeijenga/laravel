@@ -1,9 +1,9 @@
  @if(Config::get('app.debug'))
 <!-- DEVELOPMENT -->
-{{ HTML::style('/build/styles/styles.css') }}
+{{ HTML::style('/assets/styles/styles.css') }}
 @else
 <!-- PRODUCTION -->
-{{ HTML::style('/build/styles/5e54bc-styles.css') }}
+{{ HTML::style('/assets/styles/f9ef0c-styles.css') }}
 @endif
 
 <!-- JS -->

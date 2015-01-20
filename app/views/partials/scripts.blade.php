@@ -1,9 +1,9 @@
 @if(Config::get('app.debug'))
 	<!-- DEVELOPMENT -->
-	{{ HTML::script('/assets/scripts/require-2.1.6.min.js', array('data-main'=> asset('../app/assets/scripts/build')) )}}
+	{{ HTML::script('/assets/scripts/require-2.1.6.min.js', array('data-main'=> asset('../app/assets/scripts/config')) )}}
 @else
 	<!-- PRODUCTION -->
-	{{ HTML::script('/assets/scripts/require-2.1.6.min.js', array('data-main'=> asset('build/scripts/27f84f-main.min.js')) )}}
+	{{ HTML::script('/assets/scripts/require-2.1.6.min.js', array('data-main'=> asset('build/scripts/d6db37-main.min.js')) )}}
 @endif
 
 <script>

@@ -2,7 +2,7 @@ module.exports = function(grunt) {
     
     var buildConfig = {
         app: 'app/assets',
-        dist: 'public/build'
+        dist: 'public/assets'
     };
 
     grunt.initConfig({
@@ -51,9 +51,9 @@ module.exports = function(grunt) {
                         viewcontroller:'empty:',
                     },
                     preserveLicenseComments: true,
-                    mainConfigFile: '<%= config.app %>/scripts/build.js',
+                    mainConfigFile: '<%= config.app %>/scripts/config.js',
                     name: "app",
-                    include: ['build'],
+                    include: ['config'],
                     out: '<%= config.dist %>/scripts/main.min.js'
                 }
             }
