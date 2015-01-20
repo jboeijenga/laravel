@@ -2,6 +2,8 @@
 /vendor
 /node_modules
 /app/assets/bower_components
+/public/assets/fonts/
+public/build/
 /.sass-cache
 summary.json
 composer.phar

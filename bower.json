@@ -13,5 +13,10 @@
     "sass-bootstrap": "~3.0.2",
     "modernizr": "~2.8.3",
     "respond": "~1.4.2"
+  },
+  "exportsOverride":{
+  	"modernizr":{
+  		"js": "modernizr.js"
+  	}
   }
 }
