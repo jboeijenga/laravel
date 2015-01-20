@@ -1,6 +1,7 @@
 /bootstrap/compiled.php
 /vendor
 /node_modules
+/app/assets/bower_components
 /.sass-cache
 composer.phar
 composer.lock

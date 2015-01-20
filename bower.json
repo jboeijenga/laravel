@@ -1,0 +1,17 @@
+{
+  "version": "0.1",
+  "authors": [
+    "Jasper Boeijenga <jboeijenga@gmail.com>"
+  ],
+  "name": "Laravel",
+  "description": "This bower file is used to keep track of 3th party dependencies",
+  "homepage": "http://www.laravel.com",
+  "private": true,
+  "license": "none",
+  "dependencies": {
+    "requirejs": "~2.1.15",
+    "sass-bootstrap": "~3.0.2",
+    "modernizr": "~2.8.3",
+    "respond": "~1.4.2"
+  }
+}

@@ -1,20 +1,3 @@
 {
-  "version": "0.1",
-  "authors": [
-    "Jasper Boeijenga <jboeijenga@gmail.com>"
-  ],
-  "name": "Laravel",
-  "description": "This bower file is used to keep track of 3th party dependencies",
-  "homepage": "http://www.laravel.com",
-  "private": true,
-  "license": "none",
-  "directory": "~/app/assets/bower_components",
-  "dependencies": {
-    
-  },
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components"
-  ]
+	"directory"		: "app/assets/bower_components"
 }
